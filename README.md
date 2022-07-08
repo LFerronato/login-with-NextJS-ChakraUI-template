@@ -19,3 +19,8 @@ rm -rf styles src/pages/api
 4. Config `"baseUrl": "src"` in `tsconfig.json` para usar caminhos relativos ao fazer importações.
 
 5. acessar: https://chakra-ui.com/getting-started
+
+
+
+  // const data = await axios.get('https://jsonplaceholder.typicode.com/todos')
+  // console.log('data => ', data)

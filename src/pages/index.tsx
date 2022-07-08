@@ -1,8 +1,16 @@
 import type { NextPage } from 'next'
+import { Part1 } from 'components/homeTestes/Part1'
+import { Part2 } from 'components/homeTestes/Part2'
 
 const HomePage: NextPage = () => {
   return (
-    <h1>Hello World!</h1>
+    <>
+      <Part1 />
+      <hr />
+      <hr />
+      <hr />
+      <Part2 />
+    </>
   )
 }
 
