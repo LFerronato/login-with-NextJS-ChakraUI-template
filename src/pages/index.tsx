@@ -1,20 +1,16 @@
-import { ButtonEscola } from 'components/ButtonEscola'
-import { useEscolaStore } from 'contexts/useEscolaStore'
 import type { NextPage } from 'next'
+import { Part1 } from 'components/homeTestes/Part1'
+import { Part2 } from 'components/homeTestes/Part2'
 
 const HomePage: NextPage = () => {
-  const d = useEscolaStore()
-  
   return (
-    <div>
-      Hello World!
-      <p>{d.bears}</p> 
-      <button onClick={() => d.increasePopulation()}>Add</button>
-      <button onClick={() => d.removeAllBears()}>Reset</button>
+    <>
+      <Part1 />
       <hr />
-      <p>usando um component externo, sem contexto...</p>
-      <ButtonEscola />
-    </div>
+      <hr />
+      <hr />
+      <Part2 />
+    </>
   )
 }
 
