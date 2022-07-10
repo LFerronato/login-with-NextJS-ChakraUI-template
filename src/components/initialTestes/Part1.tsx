@@ -1,4 +1,4 @@
-import { useEscolaStore } from "components/homeTestes/stores/useEscolaStore"
+import { useEscolaStore } from "components/initialTestes/stores/useEscolaStore"
 import { ButtonEscola } from "./ButtonEscola"
 import { Part1Content } from "./Part1Content"
 import { Part1GroupStatus } from "./Part1GroupStatus"

@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
-import { Part1 } from 'components/homeTestes/Part1'
-import { Part2 } from 'components/homeTestes/Part2'
+import { Part1 } from 'components/initialTestes/Part1'
+import { Part2 } from 'components/initialTestes/Part2'
 
 const HomePage: NextPage = () => {
   return (

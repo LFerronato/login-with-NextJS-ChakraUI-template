@@ -1,4 +1,4 @@
-import { useEscolaStore } from "components/homeTestes/stores/useEscolaStore"
+import { useEscolaStore } from "components/initialTestes/stores/useEscolaStore"
 
 export const ButtonEscola = () => {
   const { increasePopulation, removeAllBears } = useEscolaStore()
