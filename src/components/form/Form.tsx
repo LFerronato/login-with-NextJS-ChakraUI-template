@@ -8,7 +8,13 @@ const Input = ({ name, onChange }: InputHTMLAttributes<HTMLInputElement>) => {
       type="text"
       name={name}
       value={value ?? ''}
-      onChange={onChange} />
+      onChange={onChange}
+      style={{
+        fontSize: '3rem',
+        border: 'none',
+        outline: 'none',
+      }}
+    />
   )
 }
 
